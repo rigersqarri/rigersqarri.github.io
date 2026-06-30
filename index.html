@@ -43,11 +43,12 @@
   <section id="about">
     <h2>About</h2>
     <p>
-      Master&apos;s in Business Analytics from Penn State Smeal (GPA 3.93) with a BS in Finance.
-      Background in financial reporting, variance analysis, and ETF/index research.
-      Currently strengthening my FP&amp;A practice through projects that mirror real
-      monthly-close workflows: budget vs. actual, YoY variance, labor forecasting,
-      and operational KPI tracking.
+      I&apos;m a finance analyst with a Master&apos;s in Business Analytics and a BS in
+      Finance, both from Penn State. My work has been in financial reporting,
+      variance analysis, and ETF research, and lately I&apos;ve been building out
+      the FP&amp;A side of my toolkit. The projects below are samples of the
+      monthly-close reporting an analyst actually delivers: budget vs. actual,
+      YoY trends, labor and overtime forecasting, operational KPIs.
     </p>
   </section>
 
@@ -81,10 +82,10 @@
         <h3>Telecom FP&amp;A Dashboard</h3>
         <p class="project-meta">Power BI · DAX · Power Query · Star schema</p>
         <p>
-          Four-page dashboard for a fictional telecom BU — exec summary, variance
-          analysis, labor &amp; headcount, operational KPIs. Star schema with marked
-          date table, 19 DAX measures including time intelligence, and decomposition
-          tree drill-down across 10 branches × 4 divisions × 12 verticals.
+          Four-page Power BI dashboard for a fictional telecom business unit at
+          roughly $1.4B in revenue. Star schema, 19 DAX measures with time
+          intelligence, and a decomposition tree that drills from region down
+          to vertical across 10 branches.
         </p>
         <p class="project-links">
           <a href="https://github.com/rigersqarri/telecom-fpa-dashboard" target="_blank" rel="noopener">Repo &amp; .pbix &rarr;</a>
@@ -95,10 +96,11 @@
         <h3>Manufacturing Plant FP&amp;A Dashboard</h3>
         <p class="project-meta">Power BI · operational FP&amp;A · variance bridge</p>
         <p>
-          Operational dashboard for a diversified industrial manufacturer — 4
-          plants, 24 months. Plant-level P&amp;L, price/volume/mix variance
-          waterfall, OEE and scrap tracking, inventory turns. Synthetic data
-          with a steel-cost shock and one underperforming plant baked in.
+          Operational FP&amp;A dashboard for a fictional diversified industrial
+          manufacturer (4 plants, 24 months). Plant-level P&amp;L, a
+          price/volume/mix waterfall, OEE and scrap, and inventory turns. The
+          data has a steel-cost shock and one underperforming plant built in so
+          there&apos;s something to flag.
         </p>
         <p class="project-links"><span class="status">In progress</span></p>
       </article>
@@ -107,9 +109,10 @@
         <h3>Industrial Margin Bridge</h3>
         <p class="project-meta">Python · pandas · SEC EDGAR</p>
         <p>
-          Five-year margin walk for a diversified industrial manufacturer — decomposes
-          YoY gross-margin change into price, volume, mix, and cost effects on real
-          10-K segment data. Waterfall visualization with analyst commentary.
+          Five-year margin walk on real 10-K segment data from a diversified
+          industrial. Decomposes YoY gross-margin changes into price, volume,
+          mix, and cost effects. Built in Python with pandas, output as a
+          waterfall with written commentary.
         </p>
         <p class="project-links"><span class="status">Planned</span></p>
       </article>
@@ -118,9 +121,10 @@
         <h3>Manufacturing Operations SQL</h3>
         <p class="project-meta">SQL · CTEs · window functions</p>
         <p>
-          Synthetic ERP-style schema (production runs, scrap, BOMs, inventory).
-          Six business questions answered with multi-step queries — scrap-rate
-          outliers, on-time delivery by SKU family, working-capital efficiency.
+          A synthetic ERP-style schema (production, scrap, BOMs, inventory) with
+          six business questions answered using CTEs and window functions.
+          Things like scrap-rate outliers by plant, on-time delivery by SKU
+          family, and working-capital efficiency.
         </p>
         <p class="project-links"><span class="status">Planned</span></p>
       </article>
@@ -129,9 +133,10 @@
         <h3>Demand Forecast &amp; Production Plan</h3>
         <p class="project-meta">R · ARIMA · Holt-Winters · optimization</p>
         <p>
-          Quarterly unit-demand forecast for an industrial product line, translated
-          into a feasible production schedule under capacity constraints.
-          RMarkdown report with diagnostics, forecast intervals, and commentary.
+          Quarterly unit-demand forecast for an industrial product line using
+          ARIMA and Holt-Winters, then translated into a production schedule
+          that respects plant capacity. Written up in RMarkdown with
+          diagnostics and forecast intervals.
         </p>
         <p class="project-links"><span class="status">Planned</span></p>
       </article>
@@ -140,9 +145,9 @@
         <h3>FPL Toolbox (side project)</h3>
         <p class="project-meta">Python · scikit-learn · XGBoost</p>
         <p>
-          Multi-gameweek points projection for Fantasy Premier League. Pulls live
-          data from the FPL API, computes a fixture-weighted expected-points score,
-          and trains two regression models for transfer recommendations.
+          A multi-gameweek points projector for Fantasy Premier League. Pulls
+          live data from the FPL API, builds a fixture-weighted expected-points
+          score, then trains two regression models to rank transfer candidates.
         </p>
         <p class="project-links"><span class="status">In polish</span></p>
       </article>
