@@ -86,50 +86,57 @@ section h3 {
 .featured-blurb {
   max-width: 720px;
   color: #444;
-  margin: 0 0 1.25rem;
+  margin: 0 0 1.5rem;
 }
-.embed-wrapper {
-  position: relative;
-  width: 100%;
-  padding-top: 62.5%; /* 16:10 ratio, fits Power BI's default aspect */
+.featured-blurb code {
+  background: #f0f0f0;
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+.featured-blurb a {
+  color: #15355c;
+  border-bottom: 1px solid #15355c;
+  text-decoration: none;
+  padding-bottom: 1px;
+}
+.featured-blurb a:hover { color: #d4a017; border-color: #d4a017; }
+
+.dashboard-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.dashboard-gallery a {
+  display: block;
   background: #fff;
   border: 1px solid #e8e8e8;
   border-radius: 4px;
   overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.15s, box-shadow 0.15s;
 }
-.embed-wrapper iframe {
-  position: absolute;
-  inset: 0;
+.dashboard-gallery a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(15, 37, 64, 0.1);
+}
+.dashboard-gallery img {
   width: 100%;
-  height: 100%;
-  border: 0;
+  height: auto;
+  display: block;
+  border-bottom: 1px solid #e8e8e8;
 }
-.embed-placeholder {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 2rem;
-  background: repeating-linear-gradient(
-    45deg, #f5f5f5, #f5f5f5 10px, #fafafa 10px, #fafafa 20px
-  );
-  color: #555;
-}
-.embed-placeholder p { margin: 0.25rem 0; }
-.embed-placeholder .small {
-  font-size: 0.85rem;
-  color: #888;
-  max-width: 480px;
-}
-.embed-placeholder code {
+.thumb-label {
+  display: block;
+  padding: 0.6rem 0.9rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #15355c;
   background: #fff;
-  padding: 0.1rem 0.35rem;
-  border: 1px solid #ddd;
-  border-radius: 3px;
-  font-size: 0.85em;
+}
+@media (max-width: 640px) {
+  .dashboard-gallery { grid-template-columns: 1fr; }
 }
 
 /* ---- Skills grid ---- */
