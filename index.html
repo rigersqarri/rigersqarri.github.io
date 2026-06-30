@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rigers Qarri — Data &amp; Financial Analyst</title>
+  <meta name="description" content="Portfolio of FP&amp;A and business analytics projects by Rigers Qarri." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="hero">
+  <div class="container">
+    <h1>Rigers Qarri</h1>
+    <p class="tagline">Data &amp; Financial Analyst — FP&amp;A, business analytics, forecasting.</p>
+    <ul class="contact">
+      <li><a href="mailto:rigersqarri@gmail.com">rigersqarri@gmail.com</a></li>
+      <li><a href="https://github.com/rigersqarri" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/rigersqarri" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li>Philadelphia, PA</li>
+    </ul>
+  </div>
+</header>
+
+<main class="container">
+
+  <section id="featured">
+    <h2>Featured — Telecom FP&amp;A Dashboard</h2>
+    <p class="featured-blurb">
+      Four-page interactive dashboard for a fictional telecom business unit. Use
+      the page tabs along the bottom of the embed to walk through executive
+      summary, variance analysis, labor &amp; headcount, and operational KPIs.
+    </p>
+    <div class="embed-wrapper">
+      <!-- Replace the contents below with the <iframe> snippet from Power BI Publish-to-Web -->
+      <div class="embed-placeholder">
+        <p>Live Power BI embed goes here.</p>
+        <p class="small">Publish the .pbix from Power BI Service &rarr; File &rarr; Embed report &rarr; Publish to web, then paste the iframe in <code>index.html</code>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      Master&apos;s in Business Analytics from Penn State Smeal (GPA 3.93) with a BS in Finance.
+      Background in financial reporting, variance analysis, and ETF/index research.
+      Currently strengthening my FP&amp;A practice through projects that mirror real
+      monthly-close workflows: budget vs. actual, YoY variance, labor forecasting,
+      and operational KPI tracking.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3>BI &amp; Visualization</h3>
+        <ul><li>Power BI</li><li>Tableau</li><li>Excel (VBA, Pivot, @Risk)</li></ul>
+      </div>
+      <div class="skill-group">
+        <h3>Languages</h3>
+        <ul><li>Python (pandas, scikit-learn, XGBoost)</li><li>R</li><li>SQL</li><li>DAX, M (Power Query)</li></ul>
+      </div>
+      <div class="skill-group">
+        <h3>Modeling</h3>
+        <ul><li>Regression, time-series (ARIMA, Holt-Winters)</li><li>Classification (KNN, NB, trees, ensembles)</li><li>Clustering, PCA</li><li>Optimization (Solver)</li></ul>
+      </div>
+      <div class="skill-group">
+        <h3>Finance</h3>
+        <ul><li>Monthly close, variance analysis</li><li>Budgeting &amp; forecasting</li><li>SAP, ERP workflows</li><li>Financial reporting</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <h3>Telecom FP&amp;A Dashboard</h3>
+        <p class="project-meta">Power BI · DAX · Power Query · Star schema</p>
+        <p>
+          Four-page dashboard for a fictional telecom BU — exec summary, variance
+          analysis, labor &amp; headcount, operational KPIs. Star schema with marked
+          date table, 19 DAX measures including time intelligence, and decomposition
+          tree drill-down across 10 branches × 4 divisions × 12 verticals.
+        </p>
+        <p class="project-links">
+          <a href="https://github.com/rigersqarri/telecom-fpa-dashboard" target="_blank" rel="noopener">Repo &amp; .pbix &rarr;</a>
+        </p>
+      </article>
+
+      <article class="project-card coming">
+        <h3>Manufacturing Plant FP&amp;A Dashboard</h3>
+        <p class="project-meta">Power BI · operational FP&amp;A · variance bridge</p>
+        <p>
+          Operational dashboard for a diversified industrial manufacturer — 4
+          plants, 24 months. Plant-level P&amp;L, price/volume/mix variance
+          waterfall, OEE and scrap tracking, inventory turns. Synthetic data
+          with a steel-cost shock and one underperforming plant baked in.
+        </p>
+        <p class="project-links"><span class="status">In progress</span></p>
+      </article>
+
+      <article class="project-card coming">
+        <h3>Industrial Margin Bridge</h3>
+        <p class="project-meta">Python · pandas · SEC EDGAR</p>
+        <p>
+          Five-year margin walk for a diversified industrial manufacturer — decomposes
+          YoY gross-margin change into price, volume, mix, and cost effects on real
+          10-K segment data. Waterfall visualization with analyst commentary.
+        </p>
+        <p class="project-links"><span class="status">Planned</span></p>
+      </article>
+
+      <article class="project-card coming">
+        <h3>Manufacturing Operations SQL</h3>
+        <p class="project-meta">SQL · CTEs · window functions</p>
+        <p>
+          Synthetic ERP-style schema (production runs, scrap, BOMs, inventory).
+          Six business questions answered with multi-step queries — scrap-rate
+          outliers, on-time delivery by SKU family, working-capital efficiency.
+        </p>
+        <p class="project-links"><span class="status">Planned</span></p>
+      </article>
+
+      <article class="project-card coming">
+        <h3>Demand Forecast &amp; Production Plan</h3>
+        <p class="project-meta">R · ARIMA · Holt-Winters · optimization</p>
+        <p>
+          Quarterly unit-demand forecast for an industrial product line, translated
+          into a feasible production schedule under capacity constraints.
+          RMarkdown report with diagnostics, forecast intervals, and commentary.
+        </p>
+        <p class="project-links"><span class="status">Planned</span></p>
+      </article>
+
+      <article class="project-card coming">
+        <h3>FPL Toolbox (side project)</h3>
+        <p class="project-meta">Python · scikit-learn · XGBoost</p>
+        <p>
+          Multi-gameweek points projection for Fantasy Premier League. Pulls live
+          data from the FPL API, computes a fixture-weighted expected-points score,
+          and trains two regression models for transfer recommendations.
+        </p>
+        <p class="project-links"><span class="status">In polish</span></p>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education &amp; Certifications</h2>
+    <ul class="ed-list">
+      <li><strong>M.S. Business Analytics</strong> — Pennsylvania State University, Smeal College of Business · GPA 3.93 · 2021</li>
+      <li><strong>B.S. Finance</strong> — Pennsylvania State University · 2020</li>
+      <li>UIUC Financial Reporting Certificate · 2025</li>
+      <li>Google Data Analytics Professional Certificate · 2022</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <p>&copy; <span id="year"></span> Rigers Qarri</p>
+  </div>
+</footer>
+
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+
+</body>
+</html>
